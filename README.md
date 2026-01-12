@@ -9,7 +9,7 @@ This project demonstrates clean separation of concerns, object-oriented design, 
 
 ## Features
 
-### 🎮 Gameplay
+### Gameplay
 - Complete 9×9 Sudoku board with 3×3 sub-grids.
 - Pre-filled cells that the user cannot modify.
 - Ability to:
@@ -18,7 +18,7 @@ This project demonstrates clean separation of concerns, object-oriented design, 
   - Reset all user-entered cells
 - Final validation when the last cell is filled.
 
-### 🤖 Game Logic
+### Game Logic
 - Sudoku generation for **three difficulty levels**:
   - Easy  
   - Medium  
@@ -31,12 +31,12 @@ This project demonstrates clean separation of concerns, object-oriented design, 
   - Whether a cell is fixed or user-editable  
   - The user’s current input  
 
-### 💾 Save & Load
+### Save & Load
 - Save game state to `.sudoku` files using Java object serialization.
 - Load previous games from disk.
 - Uses `FileChooser` for file selection.
 
-### 🖥️ User Interface (JavaFX)
+### User Interface (JavaFX)
 - Menu bar with:
   - **Game:** New game, change difficulty  
   - **File:** Save, Load  
@@ -45,7 +45,7 @@ This project demonstrates clean separation of concerns, object-oriented design, 
 - Right-side number pad (1–9) for selecting numbers to insert.
 - Main 9×9 grid implemented using `TilePane`.
 
-### 🧩 Validation & Hint System
+### Validation & Hint System
 - **Check:** Verifies that all user-entered values are correct so far.  
 - **Hint:** Fills one random empty cell with the correct value.
 
